@@ -1,0 +1,6 @@
+jdbcURL=jdbc:mysql://localhost:3306/ime_baze
+username=unesi_username
+password=unesi_sifru
+preconnectCount=5
+maxIdleConnections=25
+maxConnections=25

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.IsporukaDialogController">
+   <children>
+      <Label layoutX="30.0" layoutY="80.0" text="ID isporuke">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="140.0" text="Datum">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="190.0" text="Kupac">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="240.0" text="Isporučilac">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelId" layoutX="145.0" layoutY="80.0" text="Id" textFill="#8a8a8a">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="288.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../projektni_slike/ISPORUKA/cargo%20copy.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonSacuvaj" layoutX="122.0" layoutY="317.0" mnemonicParsing="false" onAction="#sacuvaj" text="Sačuvaj">
+         <font>
+            <Font name="Helvetica Bold" size="15.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="isporucilacBox" layoutX="145.0" layoutY="238.0" prefHeight="25.0" prefWidth="168.0" />
+      <DatePicker fx:id="datumIsporuke" layoutX="145.0" layoutY="138.0" prefHeight="25.0" prefWidth="168.0" />
+      <ChoiceBox fx:id="kupacBox" layoutX="145.0" layoutY="188.0" prefHeight="25.0" prefWidth="168.0" />
+   </children>
+</AnchorPane>

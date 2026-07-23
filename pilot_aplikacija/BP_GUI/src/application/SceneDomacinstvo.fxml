@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DomacinstvoSceneController">
+   <children>
+      <AnchorPane fx:id="paneBack" layoutX="25.0" layoutY="19.0" onMouseClicked="#switchToHomeScene" prefHeight="28.0" prefWidth="28.0">
+         <children>
+            <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../projektni_slike/back-button.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="380.0" layoutY="239.0" prefHeight="122.0" prefWidth="303.0">
+         <children>
+            <ImageView fitHeight="68.0" fitWidth="261.0" layoutX="21.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../projektni_slike/DOMACINSTVO_ATOM/atom_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="190.0" layoutY="21.0" text="Osnovne informacije o domaćinstvu">
+         <font>
+            <Font name="Helvetica Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="120.0" text="JIB">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="190.0" text="Naziv domaćinstva">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="260.0" text="Adresa">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="330.0" text="Broj telefona">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="410.0" layoutY="120.0" text="Kontakt osoba">
+         <font>
+            <Font name="Helvetica Bold Oblique" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="440.0" layoutY="150.0" text="Ime">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="440.0" layoutY="180.0" text="Prezime">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="jib" layoutX="55.0" layoutY="150.0" text="Label" textFill="#6f6f6f">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="naziv" layoutX="55.0" layoutY="220.0" text="Label" textFill="#6f6f6f">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="adresa" layoutX="55.0" layoutY="290.0" text="Label" textFill="#6f6f6f">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="telefon" layoutX="55.0" layoutY="360.0" text="Label" textFill="#6f6f6f">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="imeKontakt" layoutX="538.0" layoutY="150.0" text="Label" textFill="#6f6f6f">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="prezimeKontakt" layoutX="538.0" layoutY="180.0" text="Label" textFill="#6f6f6f">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="484.0" layoutY="408.0" text="Ukupna dobit:">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="dobitLabel" layoutX="615.0" layoutY="408.0" text="dobit">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="693.0" layoutY="408.0" text="KM">
+         <font>
+            <Font name="Helvetica Bold" size="16.0" />
+         </font>
+      </Label>
+      <Line endX="-10.0" layoutX="625.0" layoutY="428.0" startX="90.0" />
+   </children>
+</AnchorPane>

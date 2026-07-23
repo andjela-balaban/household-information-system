@@ -1,0 +1,36 @@
+.anchor-card {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 5, 0, 0, 2);
+    -fx-padding: 10;
+}
+.anchor-card:hover {
+    -fx-background-color: #f9f9f9;
+}
+
+.button:pressed {
+    -fx-background-color: #cccccc; 
+    -fx-text-fill: white;         
+}
+
+.top-proizvodi-button {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.top-proizvodi-button:hover {
+    -fx-background-color: #f9f9f9;
+}
+
+.top-proizvodi-button:focused {
+    -fx-border-color: #cccccc; 
+    -fx-border-width: 1;
+}
